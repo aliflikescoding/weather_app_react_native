@@ -1,0 +1,7 @@
+node_modules/
+.eslintrc.js
+.prettierrc.js
+app.json
+babel.config.js
+package-lock.json
+package.json
