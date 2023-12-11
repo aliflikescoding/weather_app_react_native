@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
+    justifyContent: "center",
   },
   wrapper: {
     flex: 1,
