@@ -5,7 +5,7 @@ import { Feather } from '@expo/vector-icons';
 const CurrentWeather = () => {
   return (
     <SafeAreaView style={[styles.wrapper, styles.safeArea]}>
-      <View style={styles.container}>
+      <View style={ styles.container }>
         <Feather name="sun" size={100} color="black" />
         <Text style={styles.temp}>6</Text>
         <Text style={styles.feels}>Feels like 5</Text>
