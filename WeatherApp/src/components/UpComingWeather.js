@@ -1,15 +1,18 @@
 import React from "react";
-import { SafeAreaView, Text } from "react-native";
+import { SafeAreaView, Text, StyleSheet, StatusBar } from "react-native";
 
 const UpcomingWeather = () => {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, styles.safeArea]}>
       <Text>Upcoming Weather</Text>
     </SafeAreaView>
   )
 }
 
 const styles = StyleSheet.create({
+  safeArea: {
+    marginTop: StatusBar.currentHeight,
+  },
   container: {
     flex: 1,
   }
